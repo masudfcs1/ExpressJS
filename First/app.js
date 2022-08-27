@@ -8,11 +8,11 @@ app.use(morgan('dev'))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-// app.get('/', (req, res) => {
-//     res.json({
-//         message: 'I am not Route'
-//     })
-// })
+app.get('/', (req, res) => {
+    res.json({
+        message: 'I am not Route'
+    })
+})
 
 // app.get('/', function(req, res) {
 //     console.log("Cookies: ", req.cookies)
