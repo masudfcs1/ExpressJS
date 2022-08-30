@@ -17,8 +17,7 @@ app.get('/', (req, res) => {
 
 mongoose.connect('mongodb://localhost:27017/test', { useNewUrParser: true });
 
-
-.then(() => {
+    .then(() => {
     app.listen(4545, () => {
         console.log('Application For Ready.');
     })
