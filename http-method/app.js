@@ -3,7 +3,7 @@ const app = express();
 const hostname = '127.0.0.1';
 
 app.get("/", (req, res) => {
-    res.send("get-Akash")
+    res.send(" Akash")
 })
 
 
