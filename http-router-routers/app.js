@@ -19,4 +19,8 @@ app.get("/login", (req, res) => {
     res.send("<h1>get-Login</h1>");
 })
 
+app.use((req, res) => {
+    res.send("<h1>URl Not Found</h1>")
+})
+
 module.exports = app;
